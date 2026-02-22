@@ -9,18 +9,21 @@ export default function Footer() {
         gap-6
       ">
         <div className="text-center md:text-left">
-          <p className="text-lg font-semibold">
-            © 2026 Portfolio
+          <p className="text-lg letter-spacing-5  ">
+            © 2026 Digital Marketer. All rights reserved.
           </p>
           <p className="text-sm text-gray-400">
-            Built with Next.js & TailwindCSS
+            Built by <a href="https://www.srinivasgundam.com" className="underline">www.srinivasgundam.com</a>
           </p>
         </div>
 
-        <div className="flex gap-6 text-sm">
+        <div className="flex gap-6  text-sm">
           <a href="#">Privacy</a>
           <a href="#">Terms</a>
           <a href="#">LinkedIn</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">LinkedIn</a>
+
         </div>
       </div>
     </footer>

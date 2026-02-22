@@ -13,7 +13,7 @@ export default function Hero() {
         <div className="flex justify-center md:justify-start gap-4">
 
           <button className="
-            rotate-90
+            
             bg-blue-500 text-white
             text-xs sm:text-sm md:text-base lg:text-lg
             px-4 py-2
@@ -26,7 +26,7 @@ export default function Hero() {
           </button>
 
           <button className="
-            -rotate-90
+            
             bg-green-500 text-white
             text-xs sm:text-sm md:text-base lg:text-lg
             px-4 py-2
@@ -38,7 +38,7 @@ export default function Hero() {
           </button>
 
           <button className="
-            rotate-90
+            
             bg-red-500 text-white
             text-xs sm:text-sm md:text-base lg:text-lg
             px-4 py-2
@@ -50,7 +50,7 @@ export default function Hero() {
           </button>
 
           <button className="
-            -rotate-90
+            
             bg-purple-500 text-white
             text-xs sm:text-sm md:text-base lg:text-lg
             px-4 py-2

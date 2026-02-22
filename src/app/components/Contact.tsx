@@ -2,51 +2,84 @@
 
 import axios from "axios";
 import { useState } from "react";
+import { FaWhatsapp, FaLinkedin, FaTwitter, FaFacebook, FaGithub } from "react-icons/fa";
 
 export default function Contact() {
 
-  const [message, setMessage] = useState("");
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
 
-  const handleSubmit = async (e: any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    await axios.post("/api/contact", { message });
+    await axios.post("/api/contact", form);
     alert("Message Sent!");
   };
 
   return (
-    <div className="space-y-10 text-center">
-      <h2 className="text-3xl sm:text-4xl font-bold">
+    <div className="min-h-screen flex flex-col justify-center items-center px-4">
+
+      {/* Title */}
+      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-10 text-center">
         Contact
       </h2>
 
+      {/* Form */}
       <form
         onSubmit={handleSubmit}
-        className="max-w-md w-full mx-auto space-y-4"
+        className="w-full max-w-md space-y-5"
       >
+
         <input
           type="text"
+          name="name"
+          placeholder="Your Name"
+          onChange={handleChange}
+          className="w-full p-3 sm:p-4 rounded-lg border text-sm sm:text-base"
+        />
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          onChange={handleChange}
+          className="w-full p-3 sm:p-4 rounded-lg border text-sm sm:text-base"
+        />
+
+        <textarea
+          name="message"
           placeholder="Your Message"
-          className="
-            w-full p-3 sm:p-4
-            rounded-lg
-            text-sm sm:text-base
-          "
-          onChange={(e) => setMessage(e.target.value)}
+          rows={4}
+          onChange={handleChange}
+          className="w-full p-3 sm:p-4 rounded-lg border text-sm sm:text-base resize-none"
         />
 
         <button
-          className="
-            w-full
-            py-3
-            bg-black text-white
-            rounded-lg
-            hover:scale-105
-            transition duration-300
-          "
+          type="submit"
+          className="w-full py-3 sm:py-4 bg-black text-white rounded-lg hover:scale-105 transition duration-300"
         >
           Send
         </button>
+
+        {/* Social Icons */}
+        <div className="flex justify-center gap-6 pt-6 text-xl sm:text-2xl">
+
+          <FaWhatsapp className="cursor-pointer hover:text-green-500 transition" />
+          <FaLinkedin className="cursor-pointer hover:text-blue-600 transition" />
+          <FaTwitter className="cursor-pointer hover:text-sky-500 transition" />
+          <FaFacebook className="cursor-pointer hover:text-blue-700 transition" />
+          
+
+        </div>
+
       </form>
+
     </div>
   );
 }
