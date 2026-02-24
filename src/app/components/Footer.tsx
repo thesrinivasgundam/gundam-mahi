@@ -9,20 +9,20 @@ export default function Footer() {
         gap-6
       ">
         <div className="text-center md:text-left">
-          <p className="text-lg letter-spacing-5  ">
+          <h4 className="text-lg   ">
             © 2026 Digital Marketer. All rights reserved.
-          </p>
-          <p className="text-sm text-gray-400">
-            Built by <a href="https://www.srinivasgundam.com" className="underline">www.srinivasgundam.com</a>
-          </p>
+          </h4>
+          <span className="text-sm text-gray-400 tracking-wide ">
+            Built by ⚡ <a href="https://www.srinivasgundam.com" className="underline">www.srinivasgundam.com</a>
+          </span>
         </div>
 
-        <div className="flex gap-6  text-sm">
+        <div className="flex gap-6 tracking-[0.1em] text-sm">
           <a href="#">Privacy</a>
           <a href="#">Terms</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">LinkedIn</a>
+          <a href="#">whatsapp</a>
+          <a href="#">facebook</a>
+          <a href="https://www.linkedin.com/in/maheshwari-gundam-marketing/">LinkedIn</a>
 
         </div>
       </div>

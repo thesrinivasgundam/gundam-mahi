@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="font-[var(--font-bebas)] grid md:grid-cols-2 gap-20 items-center">
+    <div className=" grid md:grid-cols-2 gap-20 items-center">
 
       {/* Left Content */}
       <div className="space-y-8 text-center md:text-left">
 
         {/* Rotated Buttons */}
-        <div className="flex justify-center md:justify-start gap-4">
+        <div className="flex font-(--font-bebas) tracking-[0.07em] justify-center md:justify-start gap-4">
 
           <button className="
             
@@ -22,7 +22,7 @@ export default function Hero() {
             hover:scale-110
             
           ">
-            growth
+            strategy
           </button>
 
           <button className="
@@ -34,7 +34,7 @@ export default function Hero() {
             transition-transform duration-300
             hover:scale-110
           ">
-            strategy
+            content
           </button>
 
           <button className="
@@ -58,7 +58,7 @@ export default function Hero() {
             transition-transform duration-300
             hover:scale-110
           ">
-            content
+            growth
           </button>
 
         </div>
@@ -67,7 +67,7 @@ export default function Hero() {
         <span className="
           block
           text-3xl sm:text-4xl md:text-5xl lg:text-8xl
-          font-bold leading-tight
+          font-bold leading-tight -tracking-tight
         ">
           DIGITAL <br className="hidden sm:block" />
           MARKETER <br className="hidden sm:block" />
@@ -75,12 +75,14 @@ export default function Hero() {
         </span>
 
         <p className="
-          font-sans font-bold
+          
           text-base sm:text-lg
           text-gray-600
-          max-w-lg mx-auto md:mx-0
+          max-w-lg mx-auto md:mx-0 font-bold
         ">
-          A digital marketer drives brand growth through data-driven online campaigns, leveraging SEO, paid ads, content strategy, and analytics to maximize visibility and conversions.
+                 I am a results-driven Digital Marketer specializing in performance marketing, 
+        brand positioning, and data-driven growth strategies. My focus is on helping 
+        businesses scale through SEO, paid advertising, and conversion optimization.
         </p>
 
       </div>

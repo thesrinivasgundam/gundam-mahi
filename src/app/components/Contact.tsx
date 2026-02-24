@@ -26,9 +26,9 @@ export default function Contact() {
     <div className="min-h-screen flex flex-col justify-center items-center px-4">
 
       {/* Title */}
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-10 text-center">
+      <span className=" text-6xl tracking-[0.1em] lg:text-6xl sm:text-4xl md:text-5xl font-bold mb-10 text-center">
         Contact
-      </h2>
+      </span>
 
       {/* Form */}
       <form

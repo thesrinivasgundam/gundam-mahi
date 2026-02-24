@@ -14,7 +14,7 @@ export default function Navbar() {
     if (!target) return;
 
     const start = window.scrollY;
-    const end = target.offsetTop - 100; // offset for fixed navbar
+    const end = target.offsetTop - -13; // offset for fixed navbar
     const distance = end - start;
     let startTime: number | null = null;
 
@@ -45,11 +45,11 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
 
-        <div className="font-bold text-xl">Portfolio</div>
+        <div className=" text-xl">Portfolio</div>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-12">
-          <div className="flex gap-6">
+          <div className="flex gap-0">
             {navItems.map((item) => (
               <button
                 key={item}
@@ -67,7 +67,7 @@ export default function Navbar() {
           <button
             onClick={() => smoothScroll("contact")}
             className="ml-6 px-6 py-2 bg-yellow-300 text-black rounded-full
-                       hover:scale-105 transition duration-300 font-bold"
+                       hover:scale-105 transition duration-300 font-source"
           >
             Start Project
           </button>

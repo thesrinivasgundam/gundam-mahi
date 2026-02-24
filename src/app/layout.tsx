@@ -19,6 +19,12 @@ const bebas = localFont({
   display: "swap",
 });
 
+const sourceSans = localFont({
+  src: "/fonts/SourceSans3-VariableFont_wght.ttf",
+  variable: "--font-source",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Digital Marketer Portfolio",
   description: "Showcasing my digital marketing projects and skills.",
@@ -32,7 +38,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${bebas.className}`}
+      className={`
+        ${geistSans.variable}
+        ${geistMono.variable}
+        ${bebas.className}
+        ${sourceSans.variable}
+      `}
     >
       <body className="antialiased">
         {children}

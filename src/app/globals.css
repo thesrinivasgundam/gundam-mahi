@@ -26,3 +26,11 @@ body {
   animation: fadeInUp 1s ease-in-out;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-bebas);
+}
+
+p {
+  font-family: var(--font-source);
+}
