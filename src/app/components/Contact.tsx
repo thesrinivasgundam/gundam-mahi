@@ -70,10 +70,19 @@ export default function Contact() {
         {/* Social Icons */}
         <div className="flex justify-center gap-6 pt-6 text-xl sm:text-2xl">
 
-          <FaWhatsapp className="cursor-pointer hover:text-green-500 transition" />
-          <FaLinkedin className="cursor-pointer hover:text-blue-600 transition" />
-          <FaTwitter className="cursor-pointer hover:text-sky-500 transition" />
-          <FaFacebook className="cursor-pointer hover:text-blue-700 transition" />
+
+          <a
+  href="https://wa.me/+917731053783"
+  target="_blank"
+  rel="noopener noreferrer"
+  
+>
+  <FaWhatsapp className="cursor-pointer hover:text-green-500 transition" />
+ 
+</a>
+          
+         <a href="https://www.linkedin.com/in/maheshwari-gundam-marketing/"> <FaLinkedin className="cursor-pointer hover:text-blue-600 transition" /></a>
+
           
 
         </div>
@@ -83,3 +92,6 @@ export default function Contact() {
     </div>
   );
 }
+
+import { Phone } from "lucide-react";
+

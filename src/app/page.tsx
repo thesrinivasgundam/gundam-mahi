@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import MarqueePage from "./components/marqee";
 
 export default function Home() {
   return (
@@ -20,6 +21,10 @@ export default function Home() {
         <Work />
       </SectionWrapper>
 
+            <SectionWrapper id='tools' bgColor="#ffffff">
+        <MarqueePage/>
+      </SectionWrapper>
+
       <SectionWrapper id="services" bgColor="#68A86A">
         <Services />
       </SectionWrapper>
@@ -31,6 +36,8 @@ export default function Home() {
       <SectionWrapper id="contact" bgColor="#F8EE72">
         <Contact />
       </SectionWrapper>
+
+
 
       <Footer />
     </>

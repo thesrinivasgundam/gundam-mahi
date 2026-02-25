@@ -105,7 +105,7 @@ td {
   height: 200%;
   top: 50%;
   left: 50%;
-  background: radial-gradient(circle, rgba(65, 84, 114, 0.795) 10%, transparent 10.01%);
+  background: radial-gradient(circle, rgba(77, 100, 136, 0.411) 10%, transparent 10.01%);
   transform: translate(-50%, -50%) scale(0);
   transition: transform 0.6s ease;
   border-radius: 50%;
@@ -139,4 +139,33 @@ td {
   display: inline-block;
   transform-origin: center;
   animation: verticalPulse 1s ease-in-out infinite;
+}
+
+
+.marquee {
+  overflow: hidden;
+  width: 100%;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;        /* important */
+  animation: marquee 30s linear infinite;
+}
+
+.marquee-track img {
+  height: 60px;
+  margin-right: 40px;
+  flex-shrink: 0;            /* prevent shrinking */
+}
+
+
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }

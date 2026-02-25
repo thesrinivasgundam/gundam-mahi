@@ -69,7 +69,7 @@ export default function Navbar() {
             className="ml-6 px-6 py-2 bg-yellow-300 text-black rounded-full
                        hover:scale-105 transition duration-300 font-source"
           >
-            Start Project
+            Contact Now!
           </button>
         </div>
 
