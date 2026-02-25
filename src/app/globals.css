@@ -34,3 +34,109 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-family: var(--font-source);
 }
+
+th ,table ,tbody,td,tr {
+  font-family: var(--font-source);
+  font-weight: 800;
+  font-size: 1em;
+}
+
+
+/* -----------------------------
+   GLOBAL TYPOGRAPHY
+--------------------------------*/
+
+
+/* My Work Title Only */
+.my-work-title {
+  font-family: var(--font-bebas);
+  letter-spacing: 2px;
+}
+
+/* Entire Table Styling */
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  font-family: var(--font-source);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* Table Responsive Behavior */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Tooltip Scroll Protection */
+.tooltip-scroll {
+  max-width: 95vw;
+  overflow-x: auto;
+}
+
+/* Prevent tooltip overflow off screen */
+.tooltip-container {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .tooltip-container .tooltip-content {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95vw;
+  }
+}
+
+
+/* Ripple Container */
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ripple Circle */
+.ripple::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 50%;
+  left: 50%;
+  background: radial-gradient(circle, rgba(65, 84, 114, 0.795) 10%, transparent 10.01%);
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.6s ease;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.ripple:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/*   cusror blink effect hero */
+
+
+
+
+
+
+@keyframes verticalPulse {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.vertical-pulse {
+  display: inline-block;
+  transform-origin: center;
+  animation: verticalPulse 1s ease-in-out infinite;
+}

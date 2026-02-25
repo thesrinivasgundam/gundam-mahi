@@ -37,7 +37,7 @@ export default function Services() {
   return (
     <div className="space-y-12">
       <h2 className="text-6xl md:text-4xl lg:text-6xl sm:text-4xl tracking-[0.1em] font-bold text-center">
-        Services
+        Areas of Expertise
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
