@@ -1,5 +1,6 @@
 "use client";
 
+import { FaNewspaper } from "react-icons/fa6";
 import { useState, useRef, useEffect } from "react";
 import {
   FaLinkedin,
@@ -156,11 +157,11 @@ const platforms: Platform[] = [
     icon: <BsTwitterX />,
         links:[
       {
-        title:'do you know ?',
+        title:'Did you know ?',
         url:'https://x.com/techdemocracy/status/2020918128457416886?s=20',
       },
       {
-        title:'cisco form canada 2026',
+        title:'ciso form canada 2026',
         url:'https://x.com/techdemocracy/status/2018722495948562878?s=20',
       },
     ],
@@ -196,7 +197,7 @@ const platforms: Platform[] = [
 
   {
     name: "Newsletter",
-    icon: <FaLaptop />,
+    icon: <FaNewspaper />,
 
       links:[
       {
@@ -207,6 +208,22 @@ const platforms: Platform[] = [
         title:'september newsletter',
         url:'https://go.pardot.com/webmail/1095742/2167889278/8ff4388f195372c0a76f779ffe8bb2af8538eea842cfad01b4066a1938d438b3',
       }
+    ],
+  },
+
+
+  {
+    name: "webinar",
+    icon: <FaLaptop />,
+        links:[
+      {
+        title:'Navigating Access Complexity: Managing NHIs, Third-Party Identities & RBAC',
+        url:'https://www.techdemocracy.com/company/event/navigating-access-complexity-managing-nh-is-third-party-identities-and-rbac-30',
+      },
+            {
+        title:'Future-Proofing Authentication: Passwordless Strategies for a Hybrid, AI-Driven World',
+        url:'https://www.techdemocracy.com/company/event/future-proofing-authentication-passwordless-strategies-for-a-hybrid-ai-driven-world-33',
+      },
     ],
   },
 
@@ -241,7 +258,7 @@ export default function Work() {
       className="min-h-screen pt-6 space-y-10 text-center bg-[#3a4755] rounded-md text-white px-4"
     >
       <h2 className="my-work-title text-5xl sm:text-4xl md:text-5xl lg:text-6xl">
-        My Work
+        Work Samples
       </h2>
 
       <div className="space-y-4 max-w-5xl mx-auto">
