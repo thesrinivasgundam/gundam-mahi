@@ -31,6 +31,12 @@ const services = [
     description:
       "Expand brand reach through strategic collaborations with niche influencers to build trust and drive authentic engagement.",
   },
+{
+  name: "Content Writing",
+  image: "/content.png",
+  description:
+    "Craft compelling, SEO-optimized content that communicates your brand message clearly, engages your audience, and drives conversions across web, blog, and social platforms.",
+}
 ];
 
 export default function Services() {

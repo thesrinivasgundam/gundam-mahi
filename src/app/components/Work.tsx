@@ -123,15 +123,15 @@ const platforms: Platform[] = [
       url: "https://www.linkedin.com/feed/update/urn:li:activity:7403911293826482176",
     },
     {
-      title: "AI is everywhere, drafting emails, summarizing meetings",
+      title: "AI is Everywhere, Drafting Emails, Summarizing Meetings",
       url: "https://www.linkedin.com/feed/update/urn:li:activity:7422263542340571136",
     },
     {
-      title: "During wars and geopolitical conflicts",
+      title: "During Wars and Geopolitical Conflicts",
       url: "https://www.linkedin.com/feed/update/urn:li:activity:7422345241086603265",
     },
         {
-      title: "Great energy and a fantastic turnout",
+      title: "Great Energy and a Fantastic Turnout",
       url: "https://www.linkedin.com/feed/update/urn:li:activity:7425219875461021696",
     },
   ],
@@ -143,11 +143,11 @@ const platforms: Platform[] = [
     icon: <FaInstagram />,
     links:[
       {
-        title:'gartner i am 2025 ( day 3 )',
+        title:'GartnerIAM 2025 ( Day 3 )',
         url:'https://www.instagram.com/p/DSGCfShE5dF/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
       },
             {
-        title:'cyber security summit atlanta',
+        title:'Cyber Security Summit Atlanta',
         url:'https://www.instagram.com/p/DNnvuRTPZka/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
       },
     ],
@@ -161,7 +161,7 @@ const platforms: Platform[] = [
         url:'https://x.com/techdemocracy/status/2020918128457416886?s=20',
       },
       {
-        title:'ciso form canada 2026',
+        title:'CISO form Canada 2026',
         url:'https://x.com/techdemocracy/status/2018722495948562878?s=20',
       },
     ],
@@ -175,7 +175,7 @@ const platforms: Platform[] = [
         url:'https://medium.com/p/5234fc9bed8c',
       },
             {
-        title:'cyber security in education: a wake-up call for institutional leaders',
+        title:'Cyber Security in Education: a Wake-up Call for Institutional Leaders',
         url:'https://medium.com/p/3fb8695387f8',
       }
     ],
@@ -185,11 +185,11 @@ const platforms: Platform[] = [
     icon: <FaPinterest />,
         links:[
       {
-        title:'identity resolution',
+        title:'Identity Resolution',
         url:'https://pin.it/3wdrz96dq',
       },
             {
-        title:'cyber security 2026',
+        title:'Cyber Security 2026',
         url:'https://pin.it/5ski6P0Cc',
       },
     ],
@@ -201,11 +201,11 @@ const platforms: Platform[] = [
 
       links:[
       {
-        title:'july newsletter',
+        title:'July Newsletter',
         url:'https://go.pardot.com/webmail/1095742/2144617414/8ff4388f195372c0a76f779ffe8bb2af8538eea842cfad01b4066a1938d438b3',
       },
       {
-        title:'september newsletter',
+        title:'September Newsletter',
         url:'https://go.pardot.com/webmail/1095742/2167889278/8ff4388f195372c0a76f779ffe8bb2af8538eea842cfad01b4066a1938d438b3',
       }
     ],

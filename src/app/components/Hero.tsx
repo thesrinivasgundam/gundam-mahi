@@ -81,7 +81,8 @@ useEffect(() => {
 <span className="vertical-pulse w-[3px] sm:w-[3-px] md:w-[5px] lg:[w-7px] h-[0.7em] bg-[#FF0000] ml-4"></span>
 </span>
         <p className="text-base sm:text-lg text-gray-600 max-w-lg mx-auto md:mx-0 font-bold">
-         I create content and run online campaigns that help brands reach more people, connect with their audience, and grow their business. I focus on making messages clear, engaging, and meaningful; while using data and insights to make sure every campaign delivers real results.
+        I create content and run online campaigns that help brands reach their target audience, connect, and grow their business. 
+        I focus on crafting messages that are clear, meaningful, and engaging while utilizing data and analytics to make sure every campaign delivers significant results.
         </p>
 
       </div>
