@@ -10,7 +10,7 @@ const images = [
   "/logos/google-search-console.svg",
   "/logos/grammarly.png",
   "/logos/strapi.png",
-  "/logos/salesforce.png",
+  "/logos/Salesforce.png",
   "/logos/surfer-seo.png",
   "/logos/zoominfo.png",
   "/logos/meta-business-suite.png",
