@@ -4,7 +4,7 @@ import Image from "next/image";
 import SectionWrapper from "./SectionWrapper";
 
 const images = [
-  "/logos/ahrefs.png",
+  "/logos/Ahrefs.png",
   "/logos/buffer.png",
   "/logos/google-anlytics.png",
   "/logos/google-search-console.svg",
