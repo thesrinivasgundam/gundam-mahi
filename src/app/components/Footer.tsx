@@ -18,10 +18,8 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-6 tracking-[0.1em] text-sm">
-          <a href="#">Privacy</a>
-          <a href="#">Terms</a>
-          <a href="#">whatsapp</a>
-          <a href="#">facebook</a>
+
+          <a  href="https://wa.me/+917731053783" target="_blank"  rel="noopener noreferrer" >whatsapp</a>
           <a href="https://www.linkedin.com/in/maheshwari-gundam-marketing/">LinkedIn</a>
 
         </div>
