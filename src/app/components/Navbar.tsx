@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const navItems = ["home", "work", "services", "about", "contact"];
+const navItems = ["home", "work", "services", "about"];
 
 export default function Navbar() {
 
